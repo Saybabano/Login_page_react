@@ -1,0 +1,40 @@
+.form{
+    height:23rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+h1,
+.icon{
+    color:var(--primary-color);
+    cursor: pointer;
+}
+.inputContainer{
+    width: 80%;
+    display: flex;
+    gap: 0.5em;
+    border-bottom: 2px solid var(--gray-color);
+
+} 
+.errorMessage{
+    color:rgb(201, 34, 34) ;
+}
+.button{
+    width: 90%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: var(--white-color);
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: var(--second-color);
+
+}

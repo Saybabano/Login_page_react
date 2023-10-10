@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+:root{
+    --primary-color: #063c68;
+    --gray-color:#878484;
+    --white-color:#f8f8ff;
+    --second-color:#085797;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color:var(--white-color);
+}
+.passwordInput{
+    width:60%;
+
+}
+input,button{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+}
